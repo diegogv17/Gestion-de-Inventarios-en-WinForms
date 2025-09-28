@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestión de Inventarios en WinForms", "Gestión de Inventarios en WinForms\Gestión de Inventarios en WinForms.csproj", "{71CCBA2D-3FAE-4AC7-89B5-BF52B0C10108}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71CCBA2D-3FAE-4AC7-89B5-BF52B0C10108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CCBA2D-3FAE-4AC7-89B5-BF52B0C10108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CCBA2D-3FAE-4AC7-89B5-BF52B0C10108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CCBA2D-3FAE-4AC7-89B5-BF52B0C10108}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2330954A-01A8-49D8-9031-8A3F278B5677}
+	EndGlobalSection
+EndGlobal
