@@ -32,12 +32,14 @@
             panel1 = new Panel();
             panel2 = new Panel();
             pictureBox1 = new PictureBox();
-            this.btnMovimientos = new Button();
             btnProductos = new Button();
             btnCategorías = new Button();
             bindingSource1 = new BindingSource(components);
             panel7 = new Panel();
             panel3 = new Panel();
+            panel4 = new Panel();
+            panel5 = new Panel();
+            panel6 = new Panel();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -49,7 +51,6 @@
             // 
             panel1.BackColor = SystemColors.ControlDark;
             panel1.Controls.Add(panel2);
-            panel1.Controls.Add(this.btnMovimientos);
             panel1.Controls.Add(btnProductos);
             panel1.Controls.Add(btnCategorías);
             panel1.Dock = DockStyle.Left;
@@ -77,37 +78,27 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // btnMovimientos
-            // 
-            this.btnMovimientos.Location = new Point(12, 270);
-            this.btnMovimientos.Name = "btnMovimientos";
-            this.btnMovimientos.Size = new Size(101, 49);
-            this.btnMovimientos.TabIndex = 2;
-            this.btnMovimientos.Text = "Movimientos";
-            this.btnMovimientos.UseVisualStyleBackColor = true;
-            // 
             // btnProductos
             // 
-            btnProductos.Location = new Point(12, 194);
+            btnProductos.Location = new Point(0, 0);
             btnProductos.Name = "btnProductos";
-            btnProductos.Size = new Size(101, 45);
-            btnProductos.TabIndex = 1;
-            btnProductos.Text = "Productos";
-            btnProductos.UseVisualStyleBackColor = true;
+            btnProductos.Size = new Size(75, 23);
+            btnProductos.TabIndex = 5;
             // 
             // btnCategorías
             // 
-            btnCategorías.Location = new Point(12, 125);
+            btnCategorías.Location = new Point(0, 0);
             btnCategorías.Name = "btnCategorías";
-            btnCategorías.Size = new Size(101, 45);
-            btnCategorías.TabIndex = 0;
-            btnCategorías.Text = "Categorías";
-            btnCategorías.UseVisualStyleBackColor = true;
+            btnCategorías.Size = new Size(75, 23);
+            btnCategorías.TabIndex = 6;
             // 
             // panel7
             // 
             panel7.BackColor = SystemColors.ControlLight;
             panel7.BorderStyle = BorderStyle.FixedSingle;
+            panel7.Controls.Add(panel6);
+            panel7.Controls.Add(panel5);
+            panel7.Controls.Add(panel4);
             panel7.Controls.Add(panel3);
             panel7.Dock = DockStyle.Fill;
             panel7.Location = new Point(137, 0);
@@ -122,6 +113,30 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(211, 154);
             panel3.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = SystemColors.InactiveCaption;
+            panel4.Location = new Point(55, 238);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(212, 156);
+            panel4.TabIndex = 0;
+            // 
+            // panel5
+            // 
+            panel5.BackColor = SystemColors.InactiveCaption;
+            panel5.Location = new Point(355, 41);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(218, 154);
+            panel5.TabIndex = 0;
+            // 
+            // panel6
+            // 
+            panel6.BackColor = SystemColors.InactiveCaption;
+            panel6.Location = new Point(355, 236);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(223, 158);
+            panel6.TabIndex = 0;
             // 
             // Form1
             // 
@@ -152,5 +167,8 @@
         private BindingSource bindingSource1;
         private Panel panel7;
         private Panel panel3;
+        private Panel panel6;
+        private Panel panel5;
+        private Panel panel4;
     }
 }
