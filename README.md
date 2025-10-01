@@ -14,4 +14,3 @@ El objetivo principal es aplicar los conocimientos de **programación orientada 
 
 ## 👥 Integrantes del grupo
 - Diego Gómez    
-# Gestión de Inventarios en WinForms
