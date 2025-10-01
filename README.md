@@ -1,4 +1,4 @@
-# 📦 Gestión de Inventarios en WinForms
+# 📦 Gestión de Inventarios en WinForms para tiendas Walmart
 
 ## 📌 Descripción
 Este proyecto es una aplicación de escritorio desarrollada en **C# y Windows Forms** que permite gestionar un inventario básico.  
